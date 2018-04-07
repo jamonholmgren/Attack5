@@ -101,48 +101,6 @@
             "varType": 0
         },
         {
-            "id": "24ee745b-ed1e-458e-8f17-8312ae976508",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "A",
-            "varName": "key_left",
-            "varType": 2
-        },
-        {
-            "id": "15bd1057-1396-48b6-a5e7-a4a79e6158ab",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "D",
-            "varName": "key_right",
-            "varType": 2
-        },
-        {
-            "id": "8cad04d5-7abb-415a-ae51-1a3a58f38113",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "S",
-            "varName": "key_shoot",
-            "varType": 2
-        },
-        {
             "id": "72d179fd-9a80-49b0-aba4-434705bff944",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -152,7 +110,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1",
             "varName": "turn_rate",
             "varType": 0
         },
@@ -166,7 +124,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "2",
             "varName": "turret_turn_rate",
             "varType": 0
         },
@@ -180,7 +138,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1",
             "varName": "speed",
             "varType": 0
         },
@@ -194,7 +152,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1",
             "varName": "max_speed",
             "varType": 0
         },
@@ -255,7 +213,7 @@
             "varType": 0
         },
         {
-            "id": "642cd7ff-827d-4ed0-b42f-5c193d5386e9",
+            "id": "7af972bf-7aab-4710-8414-20813d5cb71e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -264,12 +222,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
-            "varName": "ai_control",
+            "value": "False",
+            "varName": "turn_left",
             "varType": 3
         },
         {
-            "id": "ddfb8d48-2485-4447-837d-318d99f22f43",
+            "id": "6d2486c6-cf4a-43a8-a35c-e4e56527b23d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -278,9 +236,37 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "ai_control_countdown",
-            "varType": 1
+            "value": "False",
+            "varName": "turn_right",
+            "varType": 3
+        },
+        {
+            "id": "f50ea428-0c99-4ad9-94cb-3eae21a11748",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "shoot",
+            "varType": 3
+        },
+        {
+            "id": "87ad80d3-5ea1-44b5-ba65-8517e68a1478",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "disabled",
+            "varType": 3
         }
     ],
     "solid": false,

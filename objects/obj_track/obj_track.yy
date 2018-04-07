@@ -32,20 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": false,
     "properties": [
-        {
-            "id": "dc652172-a891-496c-b6ac-1a2fa7aa3944",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "-100",
-            "varName": "depth",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
     "spriteId": "81bb6da3-de3e-4d13-8bde-4529fb3bfd4a",

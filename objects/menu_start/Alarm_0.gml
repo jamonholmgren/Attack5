@@ -6,7 +6,7 @@ if (countdown == 0) {
 	countdown -= 1;
 	if (countdown <= 0) {
 		// start the game
-		room_goto_next();
+		start_game();
 	} else {
 		alarm_set(0, 60);
 	}
