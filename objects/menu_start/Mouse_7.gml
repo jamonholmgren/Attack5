@@ -3,7 +3,7 @@
 if (countdown > 0) {
 	countdown = 0;
 } else {
-	countdown = 5;
+	countdown = 3;
 }
 
 alarm_set(0, 60);

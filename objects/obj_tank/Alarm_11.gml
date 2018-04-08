@@ -5,4 +5,4 @@ if (speed > 0) {
 	new_track.image_angle = image_angle;
 }
 
-alarm_set(11, 20);
+alarm_set(11, 40);

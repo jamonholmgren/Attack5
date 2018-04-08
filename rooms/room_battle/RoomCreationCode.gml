@@ -16,9 +16,4 @@ full_height = window_get_height();
 half_width = full_width / 2;
 half_height = full_height/ 2;
 
-obj_camera_1.follow = p[0].vehicle;
-obj_camera_2.follow = p[1].vehicle;
-obj_camera_3.follow = p[2].vehicle;
-obj_camera_4.follow = p[3].vehicle;
-
 global.game_active = true;
