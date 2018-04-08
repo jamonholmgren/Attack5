@@ -7,10 +7,12 @@
         "47c0f448-fc6a-46bc-9f2e-0f8f3fffd7b0",
         "046eb275-971e-4033-ae69-0783188b4176",
         "ebca9f18-cba2-41df-b5c9-9bd865c747e0",
-        "5d9dcb22-cbb3-45e3-aa22-315386a07530"
+        "5d9dcb22-cbb3-45e3-aa22-315386a07530",
+        "5c71772a-bf51-4cd0-8473-ddf76028d5e7",
+        "80523f9e-d9fb-4ced-8ced-e345ce5d01ef"
     ],
     "filterType": "GMObject",
-    "folderName": "tanks",
+    "folderName": "vehicles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

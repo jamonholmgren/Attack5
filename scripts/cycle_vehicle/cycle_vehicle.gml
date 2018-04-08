@@ -4,7 +4,9 @@ with (mp) {
 	vehicles = [
 		obj_hotchkiss,
 		obj_t34,
-		obj_panzer4
+		obj_panzer4,
+		obj_spitfire,
+		obj_bf109
 	];
 
 	if (vehicle == noone) {

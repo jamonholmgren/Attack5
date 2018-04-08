@@ -27,7 +27,7 @@ if (global.game_active) {
 		menu_players[3].vehicle.y,
 	);
 
-	padding = 300;
+	padding = 1000;
 
 	cw = max(400, (maxX - minX) + padding);
 	ch = max(300, (maxY - minY) + padding);
@@ -35,7 +35,8 @@ if (global.game_active) {
 	cx = mean(maxX, minX) - (cw / 2);
 	cy = mean(maxY, minY) - (ch / 2);
 	
-	ratio = max(cw / full_width, ch / full_height);
+	newRatio = max(cw / full_width, ch / full_height);
+	ratio += (newRatio - ratio) * 0.01;
 
 	camera_set_view_pos(view_camera[0], cx, cy);
 	camera_set_view_size(view_camera[0], full_width * ratio, full_height * ratio);

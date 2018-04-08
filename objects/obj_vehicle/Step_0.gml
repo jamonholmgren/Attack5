@@ -37,7 +37,16 @@ if (cooldown <= 0 && shoot) {
 	bullet = instance_create_layer(bx, by, "Bullets", obj_bullet);
 	bullet.direction = turret_direction;
 	bullet.owner = self;
-		
+	bullet.weapon = weapon;
+	
+	if (weapon == "88mm") {
+		bullet.damage = 50;
+	} else if (weapon == "20mm") {
+		bullet.damage = 10;
+		bullet.speed = 24;
+		bullet.armed = 5;
+	}
+
 	effect_create_above(ef_smoke, bx, by, 1, c_gray);
 	
 	cooldown = reload_time;
@@ -49,18 +58,18 @@ if (global.game_active) {
 		// ded
 		speed = 0;
 		image_alpha -= 0.001;
-		effect_create_above(ef_smokeup, x + random_range(-10, 10), y + random_range(0, -5), 0, c_yellow);
-		effect_create_above(ef_smokeup, x + random_range(-10, 10), y + random_range(0, -5), 1, c_black);
+		effect_create_above(smoke_effect, x + random_range(-10, 10), y + random_range(0, -5), 0, c_yellow);
+		effect_create_above(smoke_effect, x + random_range(-10, 10), y + random_range(0, -5), 1, c_black);
 		
 		// if image_alpha <= 0, the controlling player will be dead
 	} else if(hp <= 30) {
 		// smoking and slow
-		speed = 1;
-		effect_create_above(ef_smokeup, x + random_range(-10, 10), y + random_range(0, -5), 0, c_gray);
+		speed = max_speed * 0.3;
+		effect_create_above(smoke_effect, x + random_range(-10, 10), y + random_range(0, -5), 0, c_gray);
 	} else if(hp <= 50) {
 		// lightly smoking and slightly slower
-		speed = 2;
-		effect_create_above(ef_smokeup, x + random_range(-5, 5), y + random_range(0, -2), 0, c_white);
+		speed = max_speed * 0.6;
+		effect_create_above(smoke_effect, x + random_range(-5, 5), y + random_range(0, -2), 0, c_white);
 	} else {
 		speed = max_speed;
 	}

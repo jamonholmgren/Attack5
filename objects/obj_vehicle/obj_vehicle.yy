@@ -2,7 +2,7 @@
     "id": "47c0f448-fc6a-46bc-9f2e-0f8f3fffd7b0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_tank",
+    "name": "obj_vehicle",
     "eventList": [
         {
             "id": "31909484-5390-4ed0-b473-3b23646e39a2",
@@ -166,7 +166,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "40",
+            "value": "120",
             "varName": "reload_time",
             "varType": 0
         },
@@ -267,6 +267,48 @@
             "value": "False",
             "varName": "disabled",
             "varType": 3
+        },
+        {
+            "id": "9f2aeb4d-847f-4c91-8820-06b2194f2a29",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "aircraft",
+            "varType": 3
+        },
+        {
+            "id": "e986c668-50f3-474c-85fa-9d15a6e4c52e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "88mm",
+            "varName": "weapon",
+            "varType": 2
+        },
+        {
+            "id": "9f072f80-fe06-4f92-a724-4d3cc2451aff",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "armor",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -1,7 +1,6 @@
 /// @description Draw text.
 
 if (room_get_name(room) == "room_menu") {
-
 	draw_self();
 
 	// info
@@ -22,7 +21,7 @@ if (room_get_name(room) == "room_menu") {
 	}
 	
 	if (vehicle) {
-		
+		// it's drawn separately
 	} else {
 		draw_set_font(font_small);
 		draw_set_halign(fa_left);

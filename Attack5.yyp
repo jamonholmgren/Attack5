@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0565f972-3bd5-4beb-84b2-aa31ef557d13",
+            "Value": {
+                "id": "95fc25f9-2c96-40b6-b7b0-09d871b60520",
+                "resourcePath": "sprites\\spr_bf109\\spr_bf109.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "067b9fd0-32ec-4536-abb7-5d47ee14f249",
             "Value": {
                 "id": "03f66fa1-8891-4b38-9e28-cfff7256e813",
@@ -154,7 +162,7 @@
             "Key": "47c0f448-fc6a-46bc-9f2e-0f8f3fffd7b0",
             "Value": {
                 "id": "5884dd16-fe9f-45f4-8a77-f0d0f077c9fa",
-                "resourcePath": "objects\\obj_tank\\obj_tank.yy",
+                "resourcePath": "objects\\obj_vehicle\\obj_vehicle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -180,6 +188,14 @@
                 "id": "9606a002-5002-4514-982a-96c987f4748d",
                 "resourcePath": "scripts\\enable_viewport\\enable_viewport.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5c71772a-bf51-4cd0-8473-ddf76028d5e7",
+            "Value": {
+                "id": "db28d09f-6893-4c61-96c7-e82683247ce8",
+                "resourcePath": "objects\\obj_spitfire\\obj_spitfire.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "80523f9e-d9fb-4ced-8ced-e345ce5d01ef",
+            "Value": {
+                "id": "7aeed133-2aa3-42b0-a211-8d3a5c864216",
+                "resourcePath": "objects\\obj_bf109\\obj_bf109.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "81bb6da3-de3e-4d13-8bde-4529fb3bfd4a",
             "Value": {
                 "id": "f6faa686-4cc5-4f40-8188-08b3f47980b1",
@@ -308,6 +332,14 @@
                 "id": "3cd019f4-018b-4a99-a9ce-91e9b350dcef",
                 "resourcePath": "views\\90544560-2529-4958-83bb-befa1b1fee20.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91e40c1d-835f-40dc-9d60-52085a91e3fb",
+            "Value": {
+                "id": "fb8c4812-759d-4f70-8c8a-372a0f81ceb6",
+                "resourcePath": "sprites\\spr_spitfire\\spr_spitfire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

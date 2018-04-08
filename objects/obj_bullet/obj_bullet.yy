@@ -127,6 +127,20 @@
             "value": "10",
             "varName": "armed",
             "varType": 0
+        },
+        {
+            "id": "688a4121-75b4-44cd-93c9-f7e9ba777a5a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "88mm",
+            "varName": "weapon",
+            "varType": 2
         }
     ],
     "solid": false,

@@ -5,14 +5,19 @@ if (vehicle != noone) {
 	vehicle.turn_right = false;
 	vehicle.shoot = false;
 	
-	if (image_alpha > 0) {	
-		if (human) {
-			vehicle.turn_left = keyboard_check(ord(left_key));
-			vehicle.turn_right = keyboard_check(ord(right_key));
-			vehicle.shoot = keyboard_check(ord(shoot_key));
+	if (vehicle.image_alpha > 0) {
+		if (human) {			
+			vehicle.turn_left = keyboard_check(lk);
+			vehicle.turn_right = keyboard_check(rk);
+			vehicle.shoot = keyboard_check(sk);
 		} else {
-			vehicle.turn_left = true;
-			vehicle.shoot = true;
+			if (target || targetX > 0 || targetY > 0) {
+				// find dir to it
+				dir = angle_difference(vehicle.turret_direction, point_direction(vehicle.x, vehicle.y, targetX, targetY));
+				if (dir < 0) vehicle.turn_left = true;
+				if (dir > 0) vehicle.turn_right = true;
+				if (abs(dir) < 10 && target) vehicle.shoot = true;
+			}
 		}
 	} else {
 		// player is dead!
