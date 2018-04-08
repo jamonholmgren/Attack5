@@ -5,7 +5,7 @@ if (vehicle != noone) {
 	vehicle.turn_right = false;
 	vehicle.shoot = false;
 	
-	if (vehicle.image_alpha > 0) {
+	if (vehicle.hp > 0) {
 		if (human) {			
 			vehicle.turn_left = keyboard_check(lk);
 			vehicle.turn_right = keyboard_check(rk);

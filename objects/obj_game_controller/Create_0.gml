@@ -14,3 +14,5 @@ full_height = window_get_height();
 
 camera = camera_create_view(0, 0, 640, 480, 0, -1, -5, -5, 32, 32);
 view_set_camera(0, camera);
+
+alarm_set(0, 1000);

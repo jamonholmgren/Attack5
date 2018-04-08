@@ -1,19 +1,30 @@
 /// @description Select target
 
 if (global.game_active) {
-	origx = vehicle.x;
-	vehicle.x = -10000;
-	target = instance_nearest(origx, vehicle.y, obj_vehicle);
-	vehicle.x = origx;
-
-	targetX = target.x;
-	targetY = target.y;
-
-	dist = point_distance(vehicle.x, vehicle.y, target.x, target.y);
-	if (dist > 900 || dist < 100) {
+	var closest_enemy = 10000;
+	
+	var inst;
+	for (i = 0; i < instance_number(obj_vehicle); i += 1) {
+		inst = instance_find(obj_vehicle, i);
+		if (inst.team == vehicle.team || inst.hp <= 0) continue;
+		
+		var d = point_distance(vehicle.x, vehicle.y, inst.x, inst.y);
+		if (d < closest_enemy) {
+			closest_enemy = d;
+			target = inst;
+		}
+	}
+	
+	if (target) {
+		targetX = target.x;
+		targetY = target.y;
+	}
+	
+	if (closest_enemy > 900 || closest_enemy < 100) {
 		target = noone;
 		targetX = random_range(500, room_width - 500);
 		targetY = random_range(500, room_height - 500);
 	}
 }
-alarm_set(0, 500);
+
+alarm_set(0, 200);

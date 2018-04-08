@@ -27,7 +27,7 @@ if (global.game_active) {
 		menu_players[3].vehicle.y,
 	);
 
-	padding = 1000;
+	padding = 500;
 
 	cw = max(400, (maxX - minX) + padding);
 	ch = max(300, (maxY - minY) + padding);

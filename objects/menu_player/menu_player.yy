@@ -73,6 +73,16 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "414a2632-05f9-423f-aa5c-fee27fe6a27a"
+        },
+        {
+            "id": "2979e779-be1c-4b23-a73c-071fa351cd92",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 9,
+            "eventtype": 6,
+            "m_owner": "414a2632-05f9-423f-aa5c-fee27fe6a27a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -217,6 +227,20 @@
             "value": "0",
             "varName": "targetY",
             "varType": 0
+        },
+        {
+            "id": "6ffa91b6-4ba2-4eea-bd8a-c8a6c6afc382",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "team",
+            "varType": 1
         }
     ],
     "solid": true,

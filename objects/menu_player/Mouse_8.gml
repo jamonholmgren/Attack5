@@ -2,4 +2,5 @@
 
 if (!global.game_active) {
 	cycle_vehicle(self);
+	vehicle.team = team;
 }

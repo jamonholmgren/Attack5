@@ -8,7 +8,7 @@ if (room_get_name(room) == "room_menu") {
 
 	// name
 	draw_set_halign(fa_left);
-	draw_text(x + 20, y + 20, player_name);
+	draw_text(x + 20, y + 20, player_name + " (team " + string(team) + ")");
 
 	// AI or human
 	if (human) {

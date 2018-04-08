@@ -1,6 +1,6 @@
 /// @description Hit vehicle!
 
-if (other != owner && armed <= 0) {
+if (other.team != owner.team && armed <= 0) {
 	effect_create_above(ef_explosion, x, y, 0, c_red);
 	effect_create_below(ef_explosion, x, y, 1, c_white);
 	

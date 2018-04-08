@@ -309,6 +309,20 @@
             "value": "10",
             "varName": "armor",
             "varType": 0
+        },
+        {
+            "id": "4beae429-318d-49b5-a6b5-283c60813d3d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "team",
+            "varType": 1
         }
     ],
     "solid": false,
