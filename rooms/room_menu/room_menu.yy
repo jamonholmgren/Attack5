@@ -2,7 +2,7 @@
 {
     "name": "room_menu",
     "id": "67cc2ad7-66b6-40a2-a7b0-ec871b1bbc0a",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

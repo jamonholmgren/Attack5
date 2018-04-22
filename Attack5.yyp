@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "165b394f-f1ee-46c4-8f2a-93b62df34e3e",
+            "Value": {
+                "id": "6ec0274b-99e3-40f0-a7d3-7e2e51bfcfaf",
+                "resourcePath": "sprites\\spr_halftrack_turret\\spr_halftrack_turret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b33e66a-4369-4623-be53-1ba263d9204e",
             "Value": {
                 "id": "0ce8e555-d943-45a9-91a9-823278c205b2",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "83f2b042-753e-402c-b62c-102e82b9bbb8",
+            "Value": {
+                "id": "f7edff6e-7f5e-4ca0-8573-5126c732a8df",
+                "resourcePath": "scripts\\particle_setup\\particle_setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "84112b78-ca39-43d2-9451-ad643ee7e59b",
             "Value": {
                 "id": "fdba56fe-cb50-438d-a59f-927563f184d5",
@@ -455,6 +471,14 @@
             }
         },
         {
+            "Key": "eb2417e7-1232-4522-b259-9a082475063a",
+            "Value": {
+                "id": "85a0826f-ee07-4f06-a1c9-2e34009789ec",
+                "resourcePath": "objects\\obj_halftrack\\obj_halftrack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ebca9f18-cba2-41df-b5c9-9bd865c747e0",
             "Value": {
                 "id": "c1e9ede2-c532-4483-bc89-ec2b3b41cc9e",
@@ -479,6 +503,14 @@
             }
         },
         {
+            "Key": "f82486af-16b6-4024-8e8c-81618e9d2ad0",
+            "Value": {
+                "id": "33020d85-12c0-4c19-80e3-c21f9b15beda",
+                "resourcePath": "sprites\\spr_halftrack\\spr_halftrack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fd8bafc7-153e-4073-939e-92e6d1da8e2e",
             "Value": {
                 "id": "3c7fcf59-2d40-4803-91ac-b2a7fcb8d46a",
@@ -491,7 +523,8 @@
         "ce90908b-5ff6-431b-8c8c-177f051848c2",
         "51c5776f-e040-491d-943b-b87be90ab146",
         "5c51eb1e-4e04-4022-ae6c-6ac060a1e69c",
-        "677024cb-c1af-413c-8689-a8b6a376e402"
+        "677024cb-c1af-413c-8689-a8b6a376e402",
+        "83f2b042-753e-402c-b62c-102e82b9bbb8"
     ],
     "tutorial": ""
 }

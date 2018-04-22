@@ -1,4 +1,3 @@
-
 lid = layer_get_id("Tanks");
 
 p = [];
@@ -22,5 +21,8 @@ full_width = window_get_width();
 full_height = window_get_height();
 half_width = full_width / 2;
 half_height = full_height/ 2;
+
+// particle system
+particle_setup();
 
 global.game_active = true;

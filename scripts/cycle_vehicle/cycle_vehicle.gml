@@ -6,7 +6,8 @@ with (mp) {
 		obj_t34,
 		obj_panzer4,
 		obj_spitfire,
-		obj_bf109
+		obj_bf109,
+		obj_halftrack
 	];
 
 	if (vehicle == noone) {

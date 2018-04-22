@@ -8,7 +8,7 @@ if (y > room_height) y = room_height;
 
 // check if we're disabled
 if (hp < 0) hp = 0;
-if (hp > 0) hp += 0.01; // regenerate HP if not dead
+//if (hp > 0) hp += 0.01; // regenerate HP if not dead
 disabled = hp == 0;
 
 // turn turret if commanded to do so by AI or human
@@ -31,8 +31,8 @@ image_angle = direction - 90;
 // shooting
 if (cooldown > 0) cooldown -= 1;
 if (cooldown <= 0 && shoot) {
-	bx = x + lengthdir_x(10, turret_direction);
-	by = y + lengthdir_y(10, turret_direction);
+	bx = x + lengthdir_x(40, turret_direction);
+	by = y + lengthdir_y(40, turret_direction);
 	
 	bullet = instance_create_layer(bx, by, "Bullets", obj_bullet);
 	bullet.direction = turret_direction;
